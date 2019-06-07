@@ -1,0 +1,45 @@
+header {
+    width: 1024px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("../assets/Credits/creditos.png");
+    background-repeat: no-repeat;
+}
+
+nav {
+    position: relative;
+    text-align: center;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.1s;
+    display: inline-block;
+}
+
+#back {
+    background-image: url("../assets/Menus/Botoes/back1.png");
+    background-size: cover;
+    background-position: center;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: -90px;
+    left: 900px;
+}
+
+    #back:hover {
+        background-image: url("../assets/Menus/Botoes/back2.png");
+        background-size: cover;
+        background-position: center;
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        top: -90px;
+        left: 900px;
+    }

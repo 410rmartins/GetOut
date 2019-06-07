@@ -1,0 +1,177 @@
+header {
+    width: 1024px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("../assets/Menus/Fundos/submenu.png");
+    background-repeat: no-repeat;
+}
+
+nav{
+    position: relative;
+    text-align: center;
+}
+
+p1 {
+    background-image: url("../assets/Menus/Botoes/volume.png");
+    background-size: 100%;
+    background-size: 300px auto;
+    background-position: center;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 230px;
+    left: 370px;
+}
+
+p2 {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+    position: absolute;
+    top: 360px;
+    left: 500px;
+}
+button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.1s;
+    display: inline-block;
+}
+
+#upSound {
+    background-image: url("../assets/Menus/Botoes/loudersound1.png");
+    background-size: 200px auto;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -485px;
+    left: 280px;
+}
+
+    #upSound:hover {
+        background-image: url("../assets/Menus/Botoes/loudersound2.png");
+        background-size: 200px auto;
+        background-position: center;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: -485px;
+        left: 280px;
+    }
+
+#downSound {
+    background-image: url("../assets/Menus/Botoes/lowersound1.png");
+    background-size: 150px auto;
+    background-position: center;
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: -450px;
+    left: 600px;
+}
+
+    #downSound:hover {
+        background-image: url("../assets/Menus/Botoes/lowersound2.png");
+        background-size: 150px auto;
+        background-position: center;
+        width: 150px;
+        height: 40px;
+        position: absolute;
+        top: -450px;
+        left: 600px;
+    }
+
+#back {
+    background-image: url("../assets/Menus/Botoes/back1.png");
+    background-size: cover;
+    background-position: center;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: -80px;
+    left: 900px;
+}
+
+    #back:hover {
+        background-image: url("../assets/Menus/Botoes/back2.png");
+        background-size: cover;
+        background-position: center;
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        top: -80px;
+        left: 900px;
+    }
+
+/*
+#exit {
+    background-image: url("../assets/Menus/Botoes/exit1.png");
+    background-size: cover;
+    background-position: center;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: -80px;
+    left: 920px;
+}
+
+    #exit:hover {
+        background-image: url("../assets/Menus/Botoes/exit2.png");
+        background-size: cover;
+        background-position: center;
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        top: -80px;
+        left: 920px;
+    }
+*/
+
+#mute {
+    background-image: url("../assets/Menus/Botoes/mute1.png");
+    background-size: 80px auto;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -300px;
+    left: 640px;
+}
+
+    #mute:hover {
+        background-image: url("../assets/Menus/Botoes/mute2.png");
+        background-size: 80px auto;
+        background-position: center;
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: -300px;
+        left: 640px;
+    }
+
+#unmute {
+    background-image: url("../assets/Menus/Botoes/unmute1.png");
+    background-size: 80px auto;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -300px;
+    left: 310px;
+}
+
+    #unmute:hover {
+        background-image: url("../assets/Menus/Botoes/unmute2.png");
+        background-size: 80px auto;
+        background-position: center;
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: -300px;
+        left: 310px;
+    }

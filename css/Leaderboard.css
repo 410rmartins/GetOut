@@ -1,0 +1,274 @@
+header {
+    width: 1024px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("../assets/Menus/Fundos/submenu.png");
+    background-repeat: no-repeat;
+}
+
+nav {
+    position: relative;
+    text-align: center;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.1s;
+    display: inline-block;
+}
+
+#backButton {
+    background-image: url("../assets/Menus/Botoes/back1.png");
+    background-size: cover;
+    background-position: center;
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: -80px;
+    left: 400px;
+}
+
+    #backButton:hover {
+        background-image: url("../assets/Menus/Botoes/back2.png");
+        background-size: cover;
+        background-position: center;
+        width: 45px;
+        height: 45px;
+        position: relative;
+        top: -80px;
+        left: 400px;
+    }
+
+div
+{
+	font-size: 22px;
+	left: 55px;
+	text-shadow: 1px 1px black;
+	position: absolute;
+	font-weight: bold;
+}
+	
+p1{
+	background-image: url("../assets/leaderboard/1.png");
+	background-size: 100%;
+    background-size: 50px auto;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}	
+
+p2{
+	background-image: url("../assets/leaderboard/2.png");
+	background-size: 100%;
+    background-size: 60px auto;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 320px;
+    left: 50px;
+}		
+
+p3{
+	background-image: url("../assets/leaderboard/3.png");
+	background-size: 100%;
+    background-size: 65px auto;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 440px;
+    left: 50px;
+}	
+
+p4{
+	background-image: url("../assets/leaderboard/4.png");
+	background-size: 100%;
+    background-size: 60px auto;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 560px;
+    left: 50px;
+}	
+
+p5{
+	background-image: url("../assets/leaderboard/5.png");
+	background-size: 100%;
+    background-size: 60px auto;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 680px;
+    left: 50px;
+}	
+
+p6{
+	background-image: url("../assets/leaderboard/6.png");
+	background-size: 100%;
+    background-size: 60px auto;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 200px;
+    left: 550px;
+}	
+
+p7{
+	background-image: url("../assets/leaderboard/7.png");
+	background-size: 100%;
+    background-size: 60px auto;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 320px;
+    left: 550px;
+}	
+
+p8{
+	background-image: url("../assets/leaderboard/8.png");
+	background-size: 100%;
+    background-size: 65px auto;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 440px;
+    left: 550px;
+}	
+
+p9{
+	background-image: url("../assets/leaderboard/9.png");
+	background-size: 100%;
+    background-size: 60px auto;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 560px;
+    left: 550px;
+}	
+	
+p10{
+	background-image: url("../assets/leaderboard/10.png");
+	background-size: 100%;
+    background-size: 80px auto;
+    background-position: center;
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    top: 680px;
+    left: 550px;
+}	
+
+#text1
+{
+	left: 150px;
+	top: 215px;
+	text-shadow: 0 0 5px black;
+	color: white;
+	font-size: 30px;
+	text-align: justify;
+}
+
+#text2
+{
+	left: 150px;
+	top: 330px;
+	text-shadow: 0 0 5px black;
+	color: white;
+	font-size: 30px;
+	text-align: justify;
+}
+
+#text3
+{
+	left: 150px;
+	top: 450px;
+	text-shadow: 0 0 5px black;
+	text-align: justify;
+	font-size: 30px;	
+	color: white;
+}
+
+#text4
+{
+	left: 150px;
+	top: 570px;
+	color: white;
+	text-align: justify;
+	font-size: 30px;	
+	text-shadow: 0 0 5px black;
+}
+
+#text5
+{
+	left: 150px;
+	top: 690px;
+	font-size: 30px;	
+	color: white;
+	text-align: justify;
+	text-shadow: 0 0 5px black;
+}
+
+#text6
+{
+	left: 650px;
+	top: 215px;
+	font-size: 30px;	
+	color: white;
+	text-align: justify;
+	text-shadow: 0 0 5px black;
+}
+
+#text7
+{
+	left: 650px;
+	top: 330px;
+	font-size: 30px;	
+	color: white;
+	text-align: justify;
+	text-shadow: 0 0 5px black;
+}
+
+#text8
+{
+	left: 650px;
+	top: 450px;
+	font-size: 30px;	
+	color: white;
+	text-align: justify;
+	text-shadow: 0 0 5px black;
+}
+
+#text9
+{
+	left: 650px;
+	top: 570px;
+	font-size: 30px;	
+	color: white;
+	text-align: justify;
+	text-shadow: 0 0 5px black;
+}
+
+#text10
+{
+	left: 650px;
+	top: 690px;
+	font-size: 30px;	
+	color: white;
+	text-align: justify;
+	text-shadow: 0 0 5px black;
+}

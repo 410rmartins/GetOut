@@ -1,0 +1,78 @@
+header {
+    width: 1024px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("../assets/Screens/winscreen.png");
+    background-repeat: no-repeat;
+}
+
+nav{
+    position: relative;
+    text-align: center;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.1s;
+    display: inline-block;
+}
+
+p1{
+	background-image: url("../assets/Screens/time.png");
+	background-size: 100%;
+    background-size: 200px auto;
+    background-position: center;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 50px;
+    left: 600px;
+
+}
+
+div
+{
+	font-size: 22px;
+	left: 55px;
+	text-shadow: 1px 1px black;
+	position: absolute;
+	font-weight: bold;
+}
+
+#text
+{
+	left: 850px;
+	top: 65px;
+	text-shadow: 0 0 5px black;
+	color: white;
+	font-size: 30px;
+	text-align: justify;
+}
+
+
+#back {
+    background-image: url("../assets/Screens/mainmenu1.png");
+    background-size: 300px auto;
+    background-position: center;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: -100px;
+    left: 375px;
+}
+
+    #back:hover {
+        background-image: url("../assets/Screens/mainmenu2.png");
+        background-size: 300px auto;
+		background-position: center;
+		width: 300px;
+		height: 100px;
+		position: absolute;
+		top: -100px;
+		left: 375px;
+    }

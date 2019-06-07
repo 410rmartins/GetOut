@@ -1,0 +1,18 @@
+﻿body {
+    margin: 0px;
+}
+
+iframe, nav {
+    width: 1024px;
+    margin: auto;
+}
+
+iframe {
+    height: 800px;
+    display: block;
+    border: none;
+}
+
+nav {
+    height: 30px;
+}
